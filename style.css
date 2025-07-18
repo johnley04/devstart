@@ -7,8 +7,8 @@
 
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f5f5f5;
+      line-height: 1.9;
+      background-color:linear-gradient(to right, #f4b400, #f4e2d8);
     }
 
     /* -------- NAVBAR -------- */
@@ -24,6 +24,8 @@
       color: #f4b400;
       font-size: 24px;
     }
+
+    
 
     .navbar ul {
       list-style: none;
@@ -46,7 +48,7 @@
     .presentation {
       padding: 60px 20px;
       text-align: center;
-      background: linear-gradient(to right, #f4b400, #f4e2d8);
+      background: wheat;
     }
 
     .presentation h2 {
@@ -60,6 +62,11 @@
       max-width: 700px;
       margin: 0 auto;
       color: #333;
+    }
+
+    /*avis-section*/
+    .avis-section{
+      background-color:wheat;
     }
 
     /* -------- FOOTER -------- */
