@@ -116,6 +116,29 @@ button{
     border: 1px solid #f6d238
 }
 
+#vision {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#vision h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#vision p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+
+
 
     /* -------- FOOTER -------- */
     footer {
