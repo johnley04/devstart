@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devstart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="logo1"><h1>devstart</h1></a>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="apropos.html">A propos</a></li>
+      <li><a href="avis.html">Avis</a></li>
+    </ul>
+  </nav>
+
+  <div class="formulaire">
+   <form class="contact-container" method="post">
+             <h1>Contactez-Nous</h1> <br>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" placeholder="entrer votre nom" required>
+            <label for="prenom">Prenom:</label>
+            <input type="text" id="prenom" name="prenom" placeholder="entrer votre prenom" required>
+            <label for="email">Adresse email:</label>
+            <input type="email" name="email" id="email" placeholder="votre@email.com" required>
+            <label for="mdp"> Mot de passe:</label>
+            <input type="password" id="mdp" name="mdp" placeholder="Entrer votre mot de passe" maxlength="9" minlength="6" required>
+            <label for="sexe">Sexe:</label>
+            <select name="sexe" id="sexe" required>
+            <option value="">--selecionner--</option>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">Autre</option>
+            </select>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            <button type="submit">Envoyer</button>
+
+    
+        </form>
+
+    </div>
+    
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-section">
+      <h4>À propos</h4>
+      <p>devstart propose des programmes linguistiques pour les jeunes du monde entier.</p>
+    </div>
+
+    <div class="footer-section">
+      <h4>Liens rapides</h4>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="apropos.html">A propos</a></li>
+        <li><a href="avis.html">Avis</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h4>Suivez-nous</h4>
+      <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">📸</a>
+        <a href="#">🐦</a>
+      </div>
+    </div>
+  </footer>
+    
+</body>
+</html>
